@@ -43,11 +43,10 @@ The collected data is sent to ThingSpeak, an IoT analytics platform, for visuali
 
 1. **Clone the Repository**
 
-   ```sh
+```
   [ git clone https://github.com/yourusername/Food-Container-Monitoring-System.git
    cd Food-Container-Monitoring-System](https://github.com/m-srikrishna-17/Food-Container-Monitoring-System)
-   ```
-
+```
 2. **Install Arduino IDE**
 
    Download and install the Arduino IDE from [here](https://www.arduino.cc/en/Main/Software).
@@ -81,7 +80,6 @@ The collected data is sent to ThingSpeak, an IoT analytics platform, for visuali
    // ThingSpeak credentials
    const char* writeAPIKey = "your_THINGSPEAK_WRITE_API_KEY";
    const long channelID = your_THINGSPEAK_CHANNEL_ID;
-   ```
 
 3. **Upload the Code**
 
