@@ -1,8 +1,6 @@
 # Food-Container-Monitoring-System
 The Food Container Monitoring System uses Arduino Uno, ESP8266, and sensors (DHT11, MQ3, LDR) to monitor temperature, humidity, gas, and light. Data is displayed on an LCD and sent to ThingSpeak for real-time visualization.
-# Food Container Monitoring System Using IoT
 
-This project is a Food Container Monitoring System that uses various sensors and IoT technologies to monitor and report the status of food containers. The system utilizes an Arduino Uno (Atmega328) microcontroller, an ESP8266 Wi-Fi module, and several sensors to collect data such as temperature, humidity, gas levels, and light intensity. The data is then sent to ThingSpeak for real-time visualization.
 
 ## Table of Contents
 
