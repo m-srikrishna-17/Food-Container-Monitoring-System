@@ -4,20 +4,20 @@
 #include <EMailSender.h>
 
 // WiFi credentials
-const char* ssid = "rangan";
-const char* password = "EdaMone0";
+const char* ssid = "WiFi Name";
+const char* password = "WiFi Password";
 
 // Email credentials
-const char* smtpUser = "srikrishna0017@gmail.com"; // Sender's email address
-const char* smtpPassword = "spie iund zlcq ihak"; // Sender's email app-specific password
-const char* myEmail = "srikrishna0017@gmail.com";
+const char* smtpUser = "xxxx@gmail.com"; // Sender's email address
+const char* smtpPassword = "xxxx xxxx xxxx xxxx"; // Sender's email app-specific password
+const char* myEmail = "xxxx@gmail.com";
 const char* smtpServer = "smtp.gmail.com";
 const uint16_t smtpPort = 465;
-const char* recipientEmail = "srikrishna.m2022ece@sece.ac.in"; // Recipient's email address
+const char* recipientEmail = "xxxx@gmail.com"; // Recipient's email address
 
 // ThingSpeak credentials
-unsigned long myChannelNumber = 2566841; // Your ThingSpeak channel number
-const char* myWriteAPIKey = "B4HPTXL4Y0Q3KGUZ";
+unsigned long myChannelNumber = xxxxxx; // Your ThingSpeak channel number
+const char* myWriteAPIKey = "xxxxxxxxxxxxxxxx";
 
 // Client and email sender initialization
 WiFiClient client;
